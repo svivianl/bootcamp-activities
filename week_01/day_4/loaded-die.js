@@ -10,8 +10,8 @@ function makeLoadedDie() {
 
   return function() {
 
-    if(counter === list.length){
-      counter = -1;
+    if(counter === list.length - 1){
+      counter = 0;
     }else{
       counter ++;
     }
