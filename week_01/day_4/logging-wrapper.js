@@ -3,8 +3,9 @@ var wrapLog = function (callback, name) {
     //arguments is an object
     //Array.from(arguments) is to convert the object into an Array
     //...arguments
-    return `${name}(${Array.from(arguments)}) => ${callback(...arguments)}`;
-   }
+    return `${name}(${Array.from(arguments)}) => ${callback.apply(this, arguments)}`;
+    // return `${name}(${Array.from(arguments)}) => ${callback(...arguments)}`;
+   };
 };
 
 var area = function (x, y) {
