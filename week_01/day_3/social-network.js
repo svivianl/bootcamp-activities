@@ -151,4 +151,4 @@ var network = {
 
 };
 
-console.log(network.following(true));
+console.log(network.following());
