@@ -34,3 +34,12 @@ function getAndPrintHTMLChunks () {
 }
 
 getAndPrintHTMLChunks();
+
+// Should you require https inside or outside of the function? Does it matter in this case? If not, in what situations would it matter?
+// Require a module as a global so you just need to call the module once
+
+// Which of the stream function options ('data', 'error', 'end', 'finish') do you need to use to log the data chunks as they come in?
+// data, error and end
+
+// What do you notice about the results? Do you think this is the best way to handle the incoming data? How could we improve upon this?
+//it is good in case you lose the connection

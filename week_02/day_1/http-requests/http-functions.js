@@ -1,17 +1,10 @@
-// while https is built-in to Node, it is a module, so it must be required
 var https = require('https');
 var dataArr = [];
 
-function getAndPrintHTML () {
-
-  var requestOptions = {
-    host: 'sytantris.github.io',
-    path: '/http-examples/step2.html'
-  };
-
+module.exports = function getHTML (options, callback) {
   // notice that https.get takes a callback with one parameter -
   // response, which is a Stream that represents the HTTP response
-  https.get(requestOptions, function (response) {
+  https.get(options, function (response) {
 
     // set encoding of received data to UTF-8
     response.setEncoding('utf8');
@@ -26,14 +19,12 @@ function getAndPrintHTML () {
     // (the `end` of the stream)
     response.on('end', function() {
       console.log('Response stream complete.');
-      dataArr.forEach(data => console.log(data));
+      dataArr.forEach(data => callback(data));
     });
 
+    // the callback is invoked when a `data` chunk is received
+    response.on('error', function (error) {
+      console.log('\n ********************************** Error: \n', errror);
+    });
   });
-
-}
-
-getAndPrintHTML();
-
-// What kind(s) of variable could you buffer your data with? Is there a preferable type? If so, what makes it preferable?
-// array
+};
