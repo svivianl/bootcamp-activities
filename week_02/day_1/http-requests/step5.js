@@ -6,7 +6,7 @@ function printHTML (html) {
 
 var requestOptions = {
   host: 'sytantris.github.io',
-  path: '/http-examples/step3.html'
+  path: '/http-examples/step5.html'
 };
 
 getHTML(requestOptions, printHTML);
