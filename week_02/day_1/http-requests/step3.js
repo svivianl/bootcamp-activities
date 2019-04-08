@@ -24,6 +24,10 @@ function getAndPrintHTML (options) {
       dataArr.forEach(data => console.log(data));
     });
 
+    // the callback is invoked when a `data` chunk is received
+    response.on('error', function (error) {
+      console.log('\n ********************************** Error: \n', errror);
+    });
   });
 
 }
