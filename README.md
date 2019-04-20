@@ -12,52 +12,52 @@ This repository have the notes taken by [me](https://github.com/vshibukawa) for 
 
   * [Day 1](/week_01/day_1)
 
-  - Line arguments using **process.argv**
-  `var myArgs = process.argv.slice(2);`
+    - Line arguments using **process.argv**
+    `var myArgs = process.argv.slice(2);`
 
   * [Day 2](/week_01/day_2)
   
-  - Bug fix
+    - Bug fix
 
   * [Day 3](/week_01/day_3)
   
-  - Data Types:
-    **Falsey**: undefined, null, NaN, the number 0 and empty strings ('')
-    Use typeof(...)
-  - Objects
+    - Data Types:
+      **Falsey**: undefined, null, NaN, the number 0 and empty strings ('')
+      Use typeof(...)
+    - Objects
 
   * [Day 4](/week_01/day_4)
   
-  - Callbacks
-  - Closures
-  - Maps and apply
+    - Callbacks
+    - Closures
+    - Maps and apply
 
   * [Day 5](/week_01/day_5)
   
-  - Modules
-  - Testings
-  - Mock test
+    - Modules
+    - Testings
+    - Mock test
 
   * [Day 6](/week_01/day_6)
   
-  - Protocols
+    - Protocols
 
 * [Week 2](/week_02)
 
   * [Day 1](/week_02/day_1)
   
-  - API
-  - [.pipe()](https://web.compass.lighthouselabs.ca/days/w02d1/activities/518)
-  - [.env](https://github.com/motdotla/dotenv)
-  - [Customize errors](http://benno.id.au/blog/2011/08/08/nodejs-exceptions)
+    - API
+      - [.pipe()](https://web.compass.lighthouselabs.ca/days/w02d1/activities/518)
+      - [.env](https://github.com/motdotla/dotenv)
+      - [Customize errors](http://benno.id.au/blog/2011/08/08/nodejs-exceptions)
 
   *[Day 2](/week_02/day_2)
   
-  - Let and Const
-  - [Web Server](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/)
-  - [CRUD](https://web.compass.lighthouselabs.ca/days/w02d2/activities/167)
-  - [curl](https://curl.haxx.se/docs/manpage.html)
-      i x -L
+    - Let and Const
+    - [Web Server](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/)
+    - [CRUD](https://web.compass.lighthouselabs.ca/days/w02d2/activities/167)
+    - [curl](https://curl.haxx.se/docs/manpage.html)
+        i x -L
 
   *[Day 3](/week_02/day_3)
     
@@ -106,21 +106,21 @@ This repository have the notes taken by [me](https://github.com/vshibukawa) for 
     - [DOM events](https://developer.mozilla.org/en-US/docs/Web/Events)
 
   * [Day 3](/week_03/day_3)
-  - AJAX (Asynchronous JavaScript and XML)
-  - [XSS](https://en.wikipedia.org/wiki/Cross-site_scripting)(Cross-site scripting)
-  - Database
+    - AJAX (Asynchronous JavaScript and XML)
+    - [XSS](https://en.wikipedia.org/wiki/Cross-site_scripting)(Cross-site scripting)
+    - Database
 
   * [Day 4](/week_03/day_4)
-  - MongoDB
+    - MongoDB
   
   * [Day 5](/week_03/day_5)
-  - SASS
-  - HTML Data Attributes
-  - Responsive Design
-  - Heroku
+    - SASS
+    - HTML Data Attributes
+    - Responsive Design
+    - Heroku
 
   * [Day 6](/week_03/day_6)
-  RDBMS - SQL
+    - RDBMS - SQL
 
 * [Week 4](/week_04)
 
