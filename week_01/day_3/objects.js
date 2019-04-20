@@ -17,4 +17,3 @@ function countLetters(str){
   return obj;
 }
 
-console.log(countLetters("lighthouse in the house"));

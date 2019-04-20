@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Ajax Example</title>
+  <style>
+  body { background: #F3F3F3; }
+  div.rockets {
+    position: absolute;
+    /*background: './rocket.jpg' no-repeat;*/
+    width: 125px;
+    height: 50px;
+    left: 0px;
+    transition: left 0s linear 0s;
+  }
+  div.rockets[data-altitude="100"] {
+      transform: rotate( 10deg );
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+  <script>
+  // var rockets, altitude, speed, distance;
+  // function activateRockets(){
+  //   rockets = document.querySelectorAll('div.rockets');
+  //   for(var i=0; i < rockets.length; i++){
+  //     altitude = rockets[i].dataset.altitude;
+  //     speed = rockets[i].dataset.speed;
+  //     distance = rockets[i].dataset.rocketDistance;
+  //     rockets[i].style.top = altitude+"px";
+  //     rockets[i].style.transitionDuration = speed+"s";
+  //     rockets[i].style.left = distance+"px";
+  //   }
+  // }
+  // window.addEventListener("load", activateRockets);
+
+  $(document).ready(function(){
+        var elem = $( "<h2>" );
+        elem.text('why??');
+    // $( elem ).data( "foo" ); // undefined
+    // $( elem ).data(); // {}
+
+    // $( elem ).data( "foo", 42 );
+    // $( elem ).data( "foo" ); // 42
+    // $( elem ).data(); // { foo: 42 }
+    $('body').append(elem);
+
+    // $('h1').data( "foo" ); // undefined
+  //   $( 'h1' ).data(); // {}
+
+    $( 'h1' ).data( "foo", 42 );
+  //   $( 'h1' ).data( "foo" ); // 42
+  //   $( 'h1' ).data(); // { foo: 42 }
+  // })
+    var $h4 = $('<h4>');
+    $h4.text($('h1').data( "foo" ));
+    $('body').append($h4);
+
+    var plant = document.getElementById('strawberry-plant');
+    var fruitCount = plant.getAttribute('data-fruit');
+    plant.setAttribute('data-fruit','7');
+
+    var hey = document.getElementById('hey');
+    $h4.text(hey.getAttribute('foo'));
+  });
+  </script>
+  <h1 id='hey'>Hi</h1>
+  <div class="rockets" data-altitude="100" data-speed="3.5" data-rocket-distance="700">X</div>
+  <div class="rockets" data-altitude="200" data-speed="5.0" data-rocket-distance="700">X</div>
+  <label id='strawberry-plant'>Plant</label>
+</body>
+</html>

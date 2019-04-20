@@ -33,15 +33,20 @@ function name(value){
     while(obj.remainder.bottles >= 2 || obj.remainder.caps >= 4){
 
       if(obj.remainder.bottles >= 2 ){
-
+        // create 2 bottles
         obj.final.bottles += 2;
+        // create 1 cap
         obj.remainder.caps ++;
+        // take 2 bottles and create 1 bottle:
         obj.remainder.bottles --;
       }
 
       if(obj.remainder.caps >= 4){
+        // create 4 caps
         obj.final.caps += 4;
+        // create a bottle
         obj.remainder.bottles ++;
+        // take 4 caps and create 1 cap from the 1 bottle
         obj.remainder.caps -= 3;
       }
 
