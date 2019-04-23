@@ -20,3 +20,10 @@ Knex is an alternative way to retrieve data from our relational database. Ultima
 Knex.js is a JavaScript library that connects to various RDBMS. It also includes a query builder that enables us to construct database queries in object-oriented techniques.
 
 We need to install the [knex](https://knexjs.org/)
+
+psql -d <name of the db> -U <user> -h <host> -p <port> -W
+
+# Database Migrations
+
+https://knexjs.org/#Migrations
+https://alexzywiak.github.io/running-migrations-with-knex/
