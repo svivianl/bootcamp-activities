@@ -1,7 +1,7 @@
 # Connecting PostgreSQL tfrom JavaScript
 
 Install drivers from [here](https://github.com/brianc/node-postgres).
-The `pg` driver is in the `package.json` in this [folder](../../).
+The `pg` driver is in the `package.json` in this [folder](https://github.com/vshibukawa/bootcamp-activities).
 
 Once you have the pg module installed, read and understand the [Getting Started](https://node-postgres.com/) example in the documentation. The additional information about things like Connection Pooling are important but not for simple apps. You may read this but knowing about it at this stage is not necessary.
 
