@@ -21,9 +21,8 @@ Knex.js is a JavaScript library that connects to various RDBMS. It also includes
 
 We need to install the [knex](https://knexjs.org/)
 
-psql -d <name of the db> -U <user> -h <host> -p <port> -W
+psql -d `<name of the db>` -U `<user>` -h `<host>` -p `<port>` -W
 
 # Database Migrations
 
-https://knexjs.org/#Migrations
-https://alexzywiak.github.io/running-migrations-with-knex/
+Check [here](https://knexjs.org/#Migrations) for the documentation and [here](https://alexzywiak.github.io/running-migrations-with-knex/) to check the blog.

@@ -58,6 +58,22 @@ Check the [frog flexbox](https://flexboxfroggy.com)
 
 # Heroku
 
+https://docs.snapcraft.io/installing-snap-on-ubuntu/6740
+sudo apt-get update
+sudo apt-get install snapd
+
+https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up
+sudo snap install heroku --classic
+
+heroku login -i
+https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app
+cd projects/tweeter
+heroku create
+git push heroku master
+heroku ps:scale web=1
+
+[Deploy postgres](https://www.youtube.com/watch?v=CCHQpkc10s4)
+
 ## Cloud Computing
   
 IaaS, PaaS, SaaS

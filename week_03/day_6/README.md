@@ -74,6 +74,9 @@ outer-join:
       left outer join table2 t2
       on t1.id = t2.id;`
 
+
+**Important:** cannot have `having`without having a `group by`
+
 ## [Database Normalization](https://blog.udemy.com/normalization-in-database-with-example/)
 
 The process of normalization organizes the data in a way reduces redundancy. This makes the data highly space-efficient on disk, however it can have trade-offs when retrieving large sets of related data.

@@ -14,27 +14,63 @@
 
   // to create new branches:
   name of the branch:
-    <feature or bug>/<name of the change>
-  git checkout -b <name of the branch>
+    `<feature or bug>/<name of the change>`
+  git checkout -b `<name of the branch>`
   // to check if you have done what you think you have done
   git branch
-  <make the changes with git add and git commit as usual>
+  //...make the changes with git add and git commit as usual
 
   // you are in the branch and you want to push into the branch and continue 
   // to work in the same branch
-  git push --set-upstream origin <name of the branch>
+  git push --set-upstream origin `<name of the branch>`
   // after that, we can do git push to the correct branch
   
   // to reverse a commit and go to an older branch
-  git checkout <name of the older branch>
+  git checkout `<name of the older branch>`
 
   // to do the branch merge    
   git checkout master
   // after that
-  git merge <name of the branch>
+  git merge `<name of the branch>`
   // and done
 
-#[Cookies](https://web.compass.lighthouselabs.ca/activities/136)
+
+
+  ------------------------------
+  git pull
+
+  git status
+
+  git checkout -b develop
+
+  git checkout -b feature/create_db
+
+  git branch
+
+  git status
+  // get the name of the branch
+
+  git add and commit as usual
+  
+  git push origin feature/create_db
+
+  git checkout develop
+  
+  git merge feature/create_db
+  
+  git push origin develop
+
+  then, go to the github, click in the pull request, compare and pull
+   choose the development, make sure you are in the development to the master
+  
+  git checkout develop
+
+  git checkout -b feature/login
+
+  // to pull the develop to the branch
+  git pull origin develop
+
+# [Cookies](https://web.compass.lighthouselabs.ca/activities/136)
   `
     var express = require("express");
     var app     = express();
