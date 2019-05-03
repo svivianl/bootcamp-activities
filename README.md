@@ -109,12 +109,13 @@ This repository have the notes taken by [me](https://github.com/vshibukawa) for 
 
 ## Prep-course
 
-[JS fundamentals](https://github.com/vshibukawa/js-fundamentals)
-[JS tutorial](https://github.com/vshibukawa/javascripting)
-[Bar chart project](https://github.com/vshibukawa/bar-chart)
+  - [JS fundamentals](https://github.com/vshibukawa/js-fundamentals)
+  - [JS tutorial](https://github.com/vshibukawa/javascripting)
+  - [Bar chart project](https://github.com/vshibukawa/bar-chart)
 
 ## Others
 
-node --inspect index.js
-chrome://inspect/#devices
-https://stackoverflow.com/questions/41398970/can-i-get-node-inspect-to-open-chrome-automatically
+  - [Node debug](https://stackoverflow.com/questions/41398970/can-i-get-node-inspect-to-open-chrome-automatically)
+      `node --inspect index.js
+      chrome://inspect/#devices`
+
