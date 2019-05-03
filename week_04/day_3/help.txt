@@ -1,0 +1,9 @@
+psql -U vagrant -d template1
+
+npm run local
+
+
+knex migrate:make <name of the migration>
+knex migrate:latest
+knex migrate:rollback
+npm run knex seed:run
