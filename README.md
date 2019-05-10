@@ -114,8 +114,15 @@ This repository have the notes taken by [me](https://github.com/vshibukawa) for 
   - [Bar chart project](https://github.com/vshibukawa/bar-chart)
 
 ## Others
-
+  
+  - [regex](https://regex101.com/)
   - [Node debug](https://stackoverflow.com/questions/41398970/can-i-get-node-inspect-to-open-chrome-automatically)
       `node --inspect index.js
       chrome://inspect/#devices`
-
+  
+  - caniuse.com: to check if this technology is supported by the browser
+  - read **node version notes** to learn more about next features
+  - web crawler
+  - symbol js http://eloquentjavascript.net/06_object.html
+  - [electron](https://www.youtube.com/watch?v=fGgw-Cx5rcE)
+  - [electron](https://www.youtube.com/watch?v=mr9Mtm_TRpw)
