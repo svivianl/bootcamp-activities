@@ -10,7 +10,7 @@ Ruby has it's very own version manager called RVM.
 
 ## Command lines
 
-|       Node      |       Ruby      |
+|       Node      |       Ruby      | Notes                     |
 | --------------- |:---------------:| -------------------------:|
 | `node --version`| `ruby --version`| version                   |
 | `which node`    | `which ruby`    | where to find the commands|
