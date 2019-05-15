@@ -90,8 +90,14 @@ If is not optional, just invoke it.
 - It is convention to only capitalize the first letter when defining Class and Module constants like Scientology
 - It is convention to capitalize and underscore the entire name when defining value constants like FOUNDED_BY
 
+# [Closures](http://www.eriktrautman.com/posts/ruby-explained-blocks-procs-and-lambdas-aka-closures)
+
+[yield](https://medium.com/rubycademy/the-yield-keyword-603a850b8921)
+
 # Lecture notes
 
 `binding.pry` is used to debbug, you can step using `step` to go to the next instruction, you can also type the name of the variable to see the value in the terminal
 `<object>.inspect` to see the attributes of the object
 byebug to help with debugging
+
+[Lecture](https://web.compass.lighthouselabs.ca/activities/402/lectures/2566)
