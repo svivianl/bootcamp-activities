@@ -1,63 +1,46 @@
 # Projects
 
-## Github Avatar
-  [Week 2 day 1](/week_02/day_01)
-  [Repo](https://github.com/vshibukawa/github-avatar-downloader)
-
-## Tiny App
-  [Week 2 day 2 to day 5](/week_02)
-  [Repo](https://github.com/vshibukawa/tiny-app)
-
-## Tweeter
-  [Week 3](week_03)
-  [Repo](https://github.com/vshibukawa/tweeter) and [version deployed](https://stormy-harbor-99529.herokuapp.com/)
-
-## Group project
-  [Week 4](week_04)
-  [Repo](https://github.com/basktballer/TheWallMidterm)
-  [heroku](https://arcane-everglades-65581.herokuapp.com/)
-
-### Requirements
-
-#### Technical
-  - ES6 for server-side (Node) code
-  - ES5 for front-end code
-  - Node
-  - Express
-  - RESTful routes
-  - Using AJAX or complete SPA approach is optional
-  - One of the following two CSS grid and UI frameworks
-  - Bootstrap 3
-  - Zurb Foundation 5
-  - jQuery
-  - SASS for styling
-  - PostgreSQL for DB
-  - Knex.js for querying and migrations
-  - git for version control
-  - heroku for hosting (hosting is optional)
-
-#### Functional
-  - Pinterest for learners.
-
-  - Allow learners to save learning resources like tutorials, blogs and videos in a central place that is publicly available to any user.
-
-  - users should be able to save an external URL along with a title and description
-  - users should be able to search for already-saved resources created by any user
-  - users should be able to categorize any resource under a topic
-  - users should be able to comment on any resource
-  - users should be able to rate any resource
-  - users should be able to like any resource
-  - users should be able to view all their own and all liked resources on one page ("My resources")
-  - users should be able to register, log in, log out and update their profile
-
-## Chatty App
-  [Week 6](week_06)
-  [Repo]()
-
-## Jungle
-  [Week 7 day 3 to ](week_07) [Week 8 day 2](week_08)
-  [Repo]()
 
 ## Final project
-  [Week 8 day 3 to ](week_08) [Week 10 day 4](week_10)
-  [Repo]()
+  Date: 2019-06-06 [Week 8 day 3 to ](../week_08) [Week 10 day 4](../week_10)
+  [Repo]() [Heroku]()
+  Front-end:
+  Back-end:
+  DB:
+  Notes:
+
+## Jungle 
+  Date: 2019-05-22 [Week 7 day 3 to ](../week_07) [Week 8 day 2](../week_08)
+  [Repo](https://github.com/vshibukawa/jungle-rails)
+  Front-end: Rails
+  Back-end: Ruby
+  DB: SQL
+
+## Chatty App
+  Date: 2019-05-10 [Week 6](../week_06)
+  [Repo](https://github.com/vshibukawa/chatty-app)
+  Front-end: HTML, CSS, React
+  Back-end: Node, Express and WebSockets
+
+## Midterm project
+  Date: 2019-04-29 [Week 4](../week_04)
+  [Repo](https://github.com/basktballer/TheWallMidterm), [heroku](https://arcane-everglades-65581.herokuapp.com/), [more](./midterm_project)
+
+## Tweeter
+  Date: 2019-04-18 [Week 3](../week_03)
+  [Repo](https://github.com/vshibukawa/tweeter) and [version deployed](https://stormy-harbor-99529.herokuapp.com/)
+  Front-end: HTML, CSS (flexbox and viewpoint), JS, jQuery and AJAX
+  Back-end: Node, Express
+  DB: MongoDB
+  
+## Tiny App
+  Date: 2019-04-15 [Week 2 day 2 to day 5](../week_02)
+  [Repo](https://github.com/vshibukawa/tiny-app)
+  Front-end: HTML, CSS
+  Back-end: Node, Express
+
+## Github Avatar
+  Date: 2019-04-08 [Week 2 day 1](../week_02/day_01)
+  [Repo](https://github.com/vshibukawa/github-avatar-downloader)
+  Front-end: N/A
+  Back-end: JavaScript
