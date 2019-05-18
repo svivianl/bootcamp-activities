@@ -79,7 +79,7 @@ This repository have the notes taken by [me](https://github.com/vshibukawa) for 
   - Component Testing in React
   - End-to-end testing
   - Projects
-    - Scheduler 
+    - Chatty app 
 
 * [Week 7](/week_07)
 
