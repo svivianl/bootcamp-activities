@@ -37,7 +37,7 @@
 ## Tweeter
   - Date: 2019-04-18 ([Week 3](../week_03))
   - Tweeter clone
-  - [Repo](https://github.com/vshibukawa/tweeter) and [version deployed](https://stormy-harbor-99529.herokuapp.com/)
+  - [Repo](https://github.com/vshibukawa/tweeter), [heroku](https://stormy-harbor-99529.herokuapp.com/)
   - Front-end: HTML, CSS (flexbox and viewpoint), JS, jQuery and AJAX
   - Back-end: Node, Express
   - DB: MongoDB
