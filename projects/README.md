@@ -23,10 +23,11 @@
 
 ## Midterm project
   - Date: 2019-04-29 ([Week 4](../week_04))
-  - [Repo](https://github.com/basktballer/TheWallMidterm), [heroku](https://arcane-everglades-65581.herokuapp.com/), [more](./midterm_project.md)
+  - [Repo](https://github.com/basktballer/TheWallMidterm), [heroku](https://arcane-everglades-65581.herokuapp.com/)
   - Front-end: HTML, CSS, JS, jQuery and AJAX
   - Back-end: Node, Express
   - DB: SQL
+  - [Requirements](./midterm_project.md)
 
 ## Tweeter
   - Date: 2019-04-18 ([Week 3](../week_03))
