@@ -198,7 +198,7 @@ The SQL keyword `EXPLAIN` provides powerful insights into how a DBMS actually ex
 
 Known as a Query Plan or Execution Plan, EXPLAIN shows us information such as which tables are scanned, and which indexes are used for JOINs.
 
-`
+```
 EXPLAIN SELECT sum(i) FROM foo WHERE i < 10;
 
                              QUERY PLAN
@@ -207,7 +207,7 @@ EXPLAIN SELECT sum(i) FROM foo WHERE i < 10;
    ->  Index Scan using fi on foo  (cost=0.00..23.92 rows=6 width=4)
          Index Cond: (i < 10)
 (3 rows)
-`
+```
 
 ## PSQL
 

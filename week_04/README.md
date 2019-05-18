@@ -6,7 +6,7 @@
 
 * [Day 2](4/day_2)
   
-  - Connecting PostgreSQL tfrom JavaScript
+  - Connecting PostgreSQL from JavaScript
   - Database Migrations
 
 * [Day 3](/day_3)
