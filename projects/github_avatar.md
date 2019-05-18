@@ -15,6 +15,7 @@ Given a GitHub repository name and owner, download all the contributors' profile
 Your program should be executed from the command line in the following manner,
 
 `node download_avatars.js jquery jquery`
+
 Any valid repo-owner + repo combination can be used, such as this:
 
 `node download_avatars.js nodejs node`
