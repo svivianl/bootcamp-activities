@@ -14,12 +14,14 @@
   - Front-end: Rails
   - Back-end: Ruby
   - DB: SQL
+  - [Requirements](./jungle.md)
 
 ## Chatty App
   - Date: 2019-05-10 ([Week 6](../week_06))
   - [Repo](https://github.com/vshibukawa/chatty-app)
   - Front-end: HTML, CSS, React
   - Back-end: Node, Express and WebSockets
+  - [Requirements](./chatty_app.md)
 
 ## Midterm project
   - Date: 2019-04-29 ([Week 4](../week_04))
@@ -35,15 +37,18 @@
   - Front-end: HTML, CSS (flexbox and viewpoint), JS, jQuery and AJAX
   - Back-end: Node, Express
   - DB: MongoDB
+  - [Requirements](./tweeter.md)
   
 ## Tiny App
   - Date: 2019-04-15 ([Week 2 day 2 to day 5](../week_02))
   - [Repo](https://github.com/vshibukawa/tiny-app)
   - Front-end: HTML, CSS
   - Back-end: Node, Express
+  - [Requirements](./tiny_app.md)
 
 ## Github Avatar
   - Date: 2019-04-08 ([Week 2 day 1](../week_02/day_01))
   - [Repo](https://github.com/vshibukawa/github-avatar-downloader)
   - Front-end: N/A
   - Back-end: JavaScript
+  - [Requirements](./github_avatar.md)
