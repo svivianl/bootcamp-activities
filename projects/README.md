@@ -28,7 +28,7 @@
 ## Midterm project
   - Date: 2019-04-29 ([Week 4](../week_04))
   - Resource wall: allow learners to save learning resources like tutorials, blogs and videos in a central place that is publicly available to any user
-  - [Repo](https://github.com/basktballer/TheWallMidterm), [heroku](https://arcane-everglades-65581.herokuapp.com/)
+  - [Repo](https://github.com/basktballer/TheWallMidterm), [Repo deployed](https://github.com/vshibukawa/TheWallMidterm), [heroku](https://the-resource-wall.herokuapp.com/)
   - Front-end: HTML, CSS, JS, jQuery and AJAX
   - Back-end: Node, Express
   - DB: SQL
