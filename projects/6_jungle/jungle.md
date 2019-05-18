@@ -1,3 +1,5 @@
+[Repo](https://github.com/vshibukawa/jungle-rails)
+
 # Requirements
 
 ## Technical Requirements
@@ -31,7 +33,7 @@
   - As a User I cannot sign up with an existing e-mail address (uniqueness validation)
   - Passwords are not stored as plain text in the database. Instead, has_secure_password is used in the User model, leveraging the bcrypt gem
 
-### Order Details Page
+### Feature: Order Details Page
 
   - The order page contains items, their image, name, description, quantities and line item totals
   - The final amount for the order is displayed

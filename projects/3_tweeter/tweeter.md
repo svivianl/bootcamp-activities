@@ -1,3 +1,5 @@
+[Repo](https://github.com/vshibukawa/tweeter) and [version deployed](https://stormy-harbor-99529.herokuapp.com/)
+
 # Requirements
 
 ## Technical Requirements
