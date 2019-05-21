@@ -1,4 +1,4 @@
-[Repo](https://github.com/basktballer/TheWallMidterm), [Repo deployed](https://github.com/vshibukawa/TheWallMidterm), [heroku](https://the-resource-wall.herokuapp.com/)
+[Repo](https://github.com/basktballer/TheWallMidterm), [repo deployed](https://github.com/vshibukawa/TheWallMidterm), [heroku](https://the-resource-wall.herokuapp.com/)
 
 # Requirements
 

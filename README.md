@@ -1,10 +1,6 @@
-# My Notes
+# [Projects](/projects)
 
-# This is an H1 header (largest)
-###### This is an H6 header (smallest)
-[sublime notes](https://packagecontrol.io/packages/Notes)
-
-## Summary
+# Curriculum
 
 This repository have the notes taken by [me](https://github.com/vshibukawa) for the [bootcamp](https://www.lighthouselabs.ca/web-development-bootcamp-curriculum.pdf?utm_source=mailchimp&utm_medium=email&utm_campaign=10WeekCurriculum&mc_cid=1bb1028d5f&mc_eid=1676a6db56)
 
@@ -18,7 +14,6 @@ This repository have the notes taken by [me](https://github.com/vshibukawa) for 
   - NPM & Package Management
   - Test-driven development
   
-
 * [Week 2](/week_02)
 
   - Node.js
@@ -105,16 +100,15 @@ This repository have the notes taken by [me](https://github.com/vshibukawa) for 
 
   - A fully-functional web app built from scratch, using a tech-stack & team of your choosing!
 
-## [Projects](/projects)
-
-## Prep-course
+# Prep-course
 
   - [JS fundamentals](https://github.com/vshibukawa/js-fundamentals)
   - [JS tutorial](https://github.com/vshibukawa/javascripting)
   - [Bar chart project](https://github.com/vshibukawa/bar-chart)
 
-## Others
-  
+# My Notes
+
+  - [sublime notes](https://packagecontrol.io/packages/Notes)
   - [regex](https://regex101.com/)
   - [Node debug](https://stackoverflow.com/questions/41398970/can-i-get-node-inspect-to-open-chrome-automatically)
       `node --inspect index.js
@@ -126,3 +120,4 @@ This repository have the notes taken by [me](https://github.com/vshibukawa) for 
   - symbol js http://eloquentjavascript.net/06_object.html
   - [electron](https://www.youtube.com/watch?v=fGgw-Cx5rcE)
   - [electron](https://www.youtube.com/watch?v=mr9Mtm_TRpw)
+  - FactoryGirl nor Fixtures
