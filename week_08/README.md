@@ -1,6 +1,11 @@
 * [Day 1](/day_1)
+  
+  - RSpec in Rails
+  - deployment in Hekoru
 
 * [Day 2](/day_2)
+
+  - testing in Rails
 
 * [Day 3](/day_3)
 
