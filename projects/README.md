@@ -2,11 +2,14 @@
 
 ## Final project
   - Date: 2019-06-06 ([Week 8 day 3 to ](../week_08) [Week 10 day 4](../week_10))
-  - [Repo]() [Heroku]()
-  - Front-end:
-  - Back-end:
-  - DB:
+  - Voice-controlled workout app
+  - [Repo](https://github.com/ferrazf/FinalProject), [heroku](https://pocket-spotter.herokuapp.com/)
+  - Front-end: Grommet, React, Voice APIs
+  - Back-end: Node.js, Express
+  - DB: PostgresSQL
   - Notes:
+    - PWA (Progessive Web App)
+    - Hooks
 
 ## Jungle 
   - Date: 2019-05-22 ([Week 7 day 3 to ](../week_07) [Week 8 day 2](../week_08))
