@@ -20,6 +20,3 @@
 * [Day 6](/day_6)
   
   - RSpec
-
-
-https://github.com/vivienfan/jungle-rails/blob/master/app/views/admin/categories/_category.html.erb
