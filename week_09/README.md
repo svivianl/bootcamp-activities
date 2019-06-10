@@ -19,3 +19,4 @@
   
   - Hooks
   - Context
+  - Stay up to date
