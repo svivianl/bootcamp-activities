@@ -3,7 +3,7 @@
 ## Final project
   - Date: 2019-06-06 ([Week 8 day 3 to ](../week_08) [Week 10 day 4](../week_10))
   - Voice-controlled workout app
-  - [Repo](https://github.com/ferrazf/FinalProject), [heroku](https://pocket-spotter.herokuapp.com/)
+  - [Repo](https://github.com/vshibukawa/PocketSpotterFinalProject), [heroku](https://pocket-spotter.herokuapp.com/)
   - Front-end: Grommet, React, Voice APIs
   - Back-end: Node.js, Express
   - DB: PostgresSQL

@@ -32,7 +32,7 @@ CREATE TABLE <name of the table> ( id INTEGER PRIMARY KEY,  <attributes separate
 
 INSERT INTO <name of the table> VALUES (<values separated by ',' in the same order as they where created>);
 
-`
+```
 CREATE TABLE movies (id INTEGER PRIMARY KEY, name TEXT, release_year INTEGER);
 INSERT INTO movies VALUES (1, "Avatar", 2009);
 INSERT INTO movies VALUES (2, "Titanic", 1997);
@@ -62,7 +62,7 @@ select count(*), case
     GROUP BY LETTER_GRADE;
 
 
-`
+```
 cross-join: 
   `select * from table1, table2;`
 inner join: 

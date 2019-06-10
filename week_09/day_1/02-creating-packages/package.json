@@ -1,11 +1,19 @@
 {
   "name": "vshibukawa-1st-package",
   "version": "1.0.0",
-  "description": "",
+  "description": "## open source",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vshibukawa/1st-package.git"
+  },
   "author": "vshibukawa",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vshibukawa/1st-package/issues"
+  },
+  "homepage": "https://github.com/vshibukawa/1st-package#readme"
 }

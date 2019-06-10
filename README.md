@@ -110,10 +110,7 @@ This repository have the notes taken by [me](https://github.com/vshibukawa) for 
 
   - [sublime notes](https://packagecontrol.io/packages/Notes)
   - [regex](https://regex101.com/)
-  - [Node debug](https://stackoverflow.com/questions/41398970/can-i-get-node-inspect-to-open-chrome-automatically)
-      `node --inspect index.js
-      chrome://inspect/#devices`
-  
+  - jQuery UI for drag and drop
   - caniuse.com: to check if this technology is supported by the browser
   - read **node version notes** to learn more about next features
   - web crawler
@@ -121,3 +118,17 @@ This repository have the notes taken by [me](https://github.com/vshibukawa) for 
   - [electron](https://www.youtube.com/watch?v=fGgw-Cx5rcE)
   - [electron](https://www.youtube.com/watch?v=mr9Mtm_TRpw)
   - FactoryGirl nor Fixtures
+
+  Recomended Softwares 
+  - onepass(password manager)
+  - no script
+  - pdf,... to convert image in SVG
+  Events 
+  - [def con](https://www.defcon.org/)
+  - unleash
+  Websites
+  - [have i been pwned](https://haveibeenpwned.com/)
+  
+  - final 
+  - add `"proxy": "http://localhost:8080",` on package.json before *dependencies*
+  - look for *verifyToken* on the server 
