@@ -106,11 +106,10 @@ const transitiveClosure = (input) => {
       const loser = output[key][i];
 
       output[loser].forEach(person => {
-        if( person !== key && (! output[key].includes(person))){
+        if( person !== key && (!input[person].includes(key))&&(! output[key].includes(person))){
           output[key].push(person);
         }
       })
-
     }
   }
 
