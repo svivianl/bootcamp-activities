@@ -15,9 +15,11 @@ Each module has a special variable called module which we can use to define whic
 
 Really what happens when Node exports a module it wraps it in a function automatically:
 
-`(function(exports, require, module, __filename, __dirname) {
+```
+(function(exports, require, module, __filename, __dirname) {
   // Module code actually lives in here
-});`
+});
+```
 
 This function provides some interesting variables let's take a look at these below:
 
@@ -29,6 +31,7 @@ This function provides some interesting variables let's take a look at these bel
 See more [here](https://nodejs.org/api/modules.html)
 
 ## Testing
+
 So far, all of our testing has been done through manual testing; write some code, put in some console.logs and verifying if the result is what we expected. While this works at the level of complexity we've been working at, it will soon become unwieldy as the application starts to grow.
 
 [Mocha](https://mochajs.org/) & [Chai](https://www.chaijs.com/)
@@ -44,7 +47,7 @@ Chai has many different ways to approach the assertions, we'll be using the expe
 
 ### Example
 Let's say we want to test the add function above. We would be able to define a test file which looks something like the following:
-`
+```
 var chai = require("chai");
 var expect = chai.expect;
 var add = require("../add.js");
@@ -59,9 +62,9 @@ describe("add", function() {
     expect(result).to.equal(4);
   });
 });
-`
+```
 Also, to help us get going with our tests, we'll update the scripts section of our `package.json` file to make testing simple.
-`
+```
 {
   // ...
   "scripts": {
@@ -69,7 +72,23 @@ Also, to help us get going with our tests, we'll update the scripts section of o
   }
   // ...
 }
-`
+```
 Now we can run our tests by executing npm test in the command line.
 
 `$ npm test <path and/or name of the test file>`
+
+# Lecture's notes
+
+- search package.js licenses
+- never `git commit`and push node_modules folder because it is created when you `npm install`. Insert the folder on the `.gitignore` file so when you `git add` and `git commit` it does not get the directories/files that are on the `.gitignore` file
+- Arrange
+- Act: `run test`
+- asserting: if it is doing what you expect it to do
+- `npm i --save-dev mocha chai`
+- create new folder
+- write the test on the script of the package.json file: `test: "mocha"`
+
+- be careful with type of for array and null
+- book: js the good parts
+
+  

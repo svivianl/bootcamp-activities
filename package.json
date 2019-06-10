@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "description": "",
   "devDependencies": {
+    "chai": "^4.2.0",
     "eslint": "^3.19.0",
-    "eslint-config-lighthouselabs": "lighthouse-labs/eslint-config-lighthouselabs"
+    "eslint-config-lighthouselabs": "lighthouse-labs/eslint-config-lighthouselabs",
+    "mocha": "^6.1.4"
   },
   "dependencies": {
     "git": "^0.1.5",
