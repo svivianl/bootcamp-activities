@@ -121,11 +121,6 @@ const margin = (input) => {
 
   input.forEach(row => {
 
-    let matchScode = 2 + row.loser_points;
-    if(matchScode < 5){
-      matchScode = 5;
-    }
-
     if(!score.hasOwnProperty(row.winner)){
       score[row.winner] = [];
     }
@@ -134,8 +129,13 @@ const margin = (input) => {
       score[row.loser] = [];
     }
 
-    score[row.winner].push(matchScode);
-    score[row.loser].push(matchScode * -1);
+    let margin = 2;
+    if(2 + row.loser_points <= 5){
+      margin = 5 - row.loser_points;
+    }
+
+    score[row.winner].push(margin);
+    score[row.loser].push(row.loser_points * -1);
   })
 
   for(let key in score){
