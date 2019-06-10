@@ -1,18 +1,6 @@
-// Write a function to produce a data structure which lists each participant, and a
-// list of who beat them. This is, in a sense, the inverse of the result from Question 2.
-
-// To keep things interesting, for this question, your only input is the output from
-// Question 2.
-
-// The resulting object would be:
-
-// {
-//   'Alice': [],
-//   'Bob':   ['Alice', 'Elise'],
-//   'Carol': ['Alice', 'Elise'],
-//   'Dean':  ['Carol'],
-//   'Elise': ['Dean']
-// }
+// Question
+// Again, write a function produce a list of all (distinct) players, as in Question 1.
+// But this time, your input is the output from Question 3.
 
 const data = [
   { winner: 'Alice', loser: 'Bob',   loser_points: 3 },
@@ -86,6 +74,9 @@ const beatenBy = (input) =>{
   return output;
 }
 
+const playersFromBeatenBy = (input) => {
+  return Object.keys(input);
+}
 
 // ['Alice', 'Bob', 'Carol', 'Dean', 'Elise']
 console.log(`players: ${players(data)}`);
@@ -101,6 +92,7 @@ const beatData = beat(data);
 console.log(`Beat:`);
 console.log(beatData);
 
+const beatenByData = beatenBy(beatData);
 // {
 //   'Alice': [],
 //   'Bob':   ['Alice', 'Elise'],
@@ -109,4 +101,7 @@ console.log(beatData);
 //   'Elise': ['Dean']
 // }
 console.log(`Beaten by:`);
-console.log(beatenBy(beatData));
+console.log(beatenByData);
+
+console.log(`Players from beaten by:`);
+console.log(playersFromBeatenBy(beatenByData));
