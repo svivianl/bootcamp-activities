@@ -18,7 +18,7 @@
 * [Day 5](/day_5)
 
 * [Day 6](/day_6)
-Bibliotecas React
+React library
 https://www.youtube.com/watch?v=G4YufO2hF6s
 
 https://v2.grommet.io/components
